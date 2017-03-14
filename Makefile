@@ -12,6 +12,6 @@ clean:
 
 # do the thing. maybe a good idea to instead break these up into files so I don't send one GIANT file every time it breaks up. probably good for memory constraints too.
 send:
-	rsync --progress -rav /tmp/closure ajarara@jarmac.org:~/closure
+	rsync --progress -rav /tmp/closure/* ajarara@jarmac.org:~/closure
 
 .PHONY: build export send
