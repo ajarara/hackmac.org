@@ -4,7 +4,7 @@ IFS=$'\n\t'
 
 mkdir -p /tmp/closure
 
-packages=(znc nginx mysql php i2p)
+packages=(znc nginx mysql i2p)
 
 for package in "${packages[@]}"
 do
